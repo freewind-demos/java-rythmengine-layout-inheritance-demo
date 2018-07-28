@@ -1,0 +1,7 @@
+@extends(layout)
+@set(title="Hello Page")
+<div>I'm the hello.rythm</div>
+
+@section("footer") {
+<div>Footer!</div>
+}

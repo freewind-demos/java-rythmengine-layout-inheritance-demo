@@ -1,0 +1,13 @@
+@args String title = "Rythm Index"
+
+<html>
+<title>@title</title>
+<body>
+    <h1>Hello, Rythm!</h1>
+    <div>
+        @doLayout()
+    </div>
+    @include("_partial")
+    @render("footer")
+</body>
+</html>
